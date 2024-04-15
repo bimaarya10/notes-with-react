@@ -15,7 +15,7 @@ export default function CardList({ notes, title, deleteNote, archiveNote }) {
   };
 
   return (
-    <div className="container px-8 mt-20 mb-20 mx-auto">
+    <div className="container px-8 mt-20 mb-40 mx-auto">
       <h2 className="text-[#001e1d] text-center text-4xl font-bold">{title}</h2>
       <div className="flex flex-wrap justify-center gap-5 mt-8 transition-all duration-1000">
         {<ReturnData />}

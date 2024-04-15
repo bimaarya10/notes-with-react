@@ -10,7 +10,7 @@ export default function Navbar({ stateSearch, onChange}) {
       <div>
         <input
           type="text"
-          className="w-full text-[#0f3433] outline-none my-5 px-2 py-1 md:px-4 md:py-2 rounded-lg shadow-lg md:text-lg"
+          className="w-full text-[#0f3433] outline-none my-3 px-3 py-2 md:px-4 md:py-2 rounded-lg shadow-lg md:text-lg"
           placeholder="Search Note..."
           value={stateSearch}
           onChange={onChange}
